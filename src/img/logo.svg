@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Lime green left arc -->
+  <path 
+    d="M 100 300 A 150 150 0 0 1 100 100" 
+    stroke="#c2d82e" 
+    stroke-width="30" 
+    fill="none"
+    stroke-linecap="round"
+  />
+  
+  <!-- Cyan right arc -->
+  <path 
+    d="M 300 100 A 150 150 0 0 1 300 300" 
+    stroke="#40c4ff" 
+    stroke-width="30" 
+    fill="none"
+    stroke-linecap="round"
+  />
+  
+  <!-- Central black ring -->
+  <circle 
+    cx="200" 
+    cy="200" 
+    r="60" 
+    stroke="black" 
+    stroke-width="30" 
+    fill="white"
+  />
+  
+  <!-- Registered trademark symbol -->
+  <text 
+    x="280" 
+    y="120" 
+    font-family="Arial, sans-serif" 
+    font-size="24" 
+    fill="black"
+  >®</text>
+</svg>

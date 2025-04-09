@@ -1,0 +1,18 @@
+apiVersion: 1
+
+datasources:
+  - name: 'Ocient'
+    type: 'ocient-datasource'
+    access: proxy
+    isDefault: true
+    orgId: 1
+    version: 1
+    editable: true
+    jsonData:
+      host: 'your-ocient-hostname'  # Replace with your actual Ocient hostname
+      port: 4050                    # Default Ocient REST API port
+      database: 'your-database'     # Replace with your database name
+      insecureSkipVerify: true
+    secureJsonData:
+      username: 'your-username'     # Replace with your Ocient username
+      password: 'your-password'     # Replace with your Ocient password

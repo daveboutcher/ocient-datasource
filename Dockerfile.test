@@ -1,0 +1,11 @@
+FROM grafana/grafana:latest
+
+USER root
+
+# Copy the plugin
+COPY dist /var/lib/grafana/plugins/ocient-datasource/
+
+# Allow unsigned plugins
+ENV GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS=ocient-datasource
+
+USER grafana
